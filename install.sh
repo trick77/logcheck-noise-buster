@@ -14,8 +14,7 @@ local_files=(
 
 for local_file in "${local_files[@]}"
 do
-  basename=$(basename "${local_file}")
-  destname=${logcheck_path}/${basename}
-  echo "Creating symlink for ${local_file} as ${destname}"  
-  ln -s ${local_file} ${destname}
+  destname=${logcheck_path}/${local_file}
+  echo "Creating symlink for ${local_file} as ${destname}"
+  ln -s ${PWD}/${local_file} ${destname}
 done
