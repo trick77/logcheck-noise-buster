@@ -1,0 +1,4 @@
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ sshd\[[[:digit:]]+\]: (Bad protocol version identification '.*'|Did not receive identification string|Invalid user [.[:alnum:]]+) from [[:xdigit:]:\.]+ port [[:digit:]]+$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ sshd\[[[:digit:]]+\]: Connection closed by [:.[:xdigit:]]+ port [[:digit:]]+ \[preauth\]$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ sshd\[[[:digit:]]+\]: Failed password for invalid user [.:[:alnum:]]+ from [.:[:digit:]]+ port [.:[:digit:]]+ ssh2$
+
