@@ -11,6 +11,7 @@ local_files=(
     "ignore.d.server/local-rsyslogd"
     "ignore.d.server/local-cron"
     "ignore.d.server/local-sshd"
+    "ignore.d.server/local-k8s"
 )
 
 for local_file in "${local_files[@]}"
