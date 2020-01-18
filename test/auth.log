@@ -1,0 +1,5 @@
+Jan 16 07:33:41 wopr sshd[21472]: Received disconnect from 164.132.92.187 port 47294:11: Bye Bye [preauth]
+Jan 16 09:25:38 wopr sshd[21866]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=31.215.134.100
+Jan 16 12:33:12 wopr sshd[22166]: Connection reset by 45.83.64.153 port 14178 [preauth]
+Jan 17 02:51:29 wopr sshd[17928]: Disconnected from authenticating user root 193.161.13.242 port 33246 [preauth]
+
