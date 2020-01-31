@@ -1,2 +1,5 @@
 Jan 17 00:00:09 wopr systemd[1]: Started Rotate log files.
 Jan 17 00:00:10 wopr systemd[1]: Started Daily man-db regeneration.
+Jan 28 19:10:19 wopr dhclient[754]: DHCPREQUEST for 128.18.15.25 on eth0 to 199.195.255.254 port 67
+Jan 28 19:10:19 wopr dhclient[754]: DHCPACK of 128.18.15.25 from 199.195.255.254
+Jan 28 19:10:19 wopr dhclient[754]: bound to 128.18.15.25 -- renewal in 1068255 seconds.
