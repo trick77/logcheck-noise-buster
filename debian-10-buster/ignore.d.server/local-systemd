@@ -1,0 +1,16 @@
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd[[[:digit:]]+\]: (Starting|Stopping) User Manager for UID [0-9]+\.\.\.$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd[[[:digit:]]+\]: (Failed to start|Started|Stopped) User Manager for UID [0-9]+\.$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd[[[:digit:]]+\]: Started Session [0-9]+ of user [-._[:alnum:]]+\.$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd[[[:digit:]]+\]: Starting (Daily apt (upgrade and clean |download )?activities|Clean php session files|Cleanup of Temporary Directories)\.\.\.$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd[[[:digit:]]+\]: Started (Cleanup of Temporary Directories|Daily apt (upgrade and clean |download )?activities|Clean php session files|ACPI event daemon)\.$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd[[[:digit:]]+\]: (Created|Removed) slice User Slice of [-._[:alnum:]]+$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd[[[:digit:]]+\]: (Reached|Stopped) target (Default|Basic System|Paths|Timers|Sockets)\.$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd[[[:digit:]]+\]: (Reloading|Reloaded|Stopping|Stopped|Starting|Started) LSB: Apache2 web server\.(\.\.)?$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd[[[:digit:]]+\]: Startup finished in [0-9]+ms\.$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd[[[:digit:]]+\]: Starting Exit the Session\.\.\.$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd[[[:digit:]]+\]: Reached target Shutdown\.$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd[[[:digit:]]+\]: Reloading\.$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd[[[:digit:]]+\]: (Starting|Started) Clean php session files\.\.\.$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd[[[:digit:]]+\]: .+\.(service|mount|timer): Succeeded\.$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd[[[:digit:]]+\]: (Starting|Started) Rotate log files\.(\.\.)?$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd[[[:digit:]]+\]: (Starting|Started) Daily man-db regeneration\.(\.\.)?$
