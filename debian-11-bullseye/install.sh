@@ -9,10 +9,9 @@ logcheck_path="/etc/logcheck"
 local_files=(
     "ignore.d.server/local-systemd"
     "ignore.d.server/local-rsyslogd"
-    "ignore.d.server/local-cron"
-    "ignore.d.server/local-sshd"
-    "ignore.d.server/local-k8s"
     "ignore.d.server/local-dhclient"
+    "ignore.d.server/local-container"
+    "ignore.d.server/local-cron"
 )
 
 for local_file in "${local_files[@]}"
