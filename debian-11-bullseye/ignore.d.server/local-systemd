@@ -1,4 +1,4 @@
-^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd[[[:digit:]]+\]: Finished Daily apt upgrade and clean activities\.$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd[[[:digit:]]+\]: (Starting|Finished) Daily apt upgrade and clean activities\.$
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd[[[:digit:]]+\]: (Created|Removed) slice User Slice of UID [0-9]+.*\.$
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd[[[:digit:]]+\]: (Created|Removed) slice User Application Slice\.$
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd[[[:digit:]]+\]: (Starting|Listening on|Closed) D-Bus User Message Bus Socket\.$
@@ -19,4 +19,4 @@
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd[[[:digit:]]+\]: Listening on GnuPG .*\.$
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd[[[:digit:]]+\]: Listening on D-Bus User Message Bus Socket\.$
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd[[[:digit:]]+\]: (Starting|Finished) Clean php session files\.$
-^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd[[[:digit:]]+\]: Finished Cleanup of Temporary Directories\.$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd[[[:digit:]]+\]: (Starting|Finished) Cleanup of Temporary Directories\.$
