@@ -8,7 +8,7 @@ set -euo pipefail
 set -e
 cd ./ignore.d.server
 for name in * ; do
-    echo Symlinking ${name}
+    echo "Symlinking ${name}"
     path="/etc/logcheck/ignore.d.server/local-$name"
     if [ ! -f "${path}" ] ; then
         ln -s "$(readlink -f "${name}")" "${path}"
