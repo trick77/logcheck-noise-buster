@@ -1,0 +1,15 @@
+# This is a basic workflow to help you get started with Actions
+
+name: Run tests
+
+on: [push, pull_request]
+
+jobs:
+  lint:
+    runs-on: debian-latest
+    steps:
+    - uses: actions/checkout@v3
+    - run: sudo apt-get update
+    - run: sudo apt install -y logcheck
+    - run: ./debian-11-bullseye/test.sh
+    - run: sudo ./install.sh
