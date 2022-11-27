@@ -4,19 +4,13 @@
 #
 set -euo pipefail
 
-# configuration
-logcheck_path="/etc/logcheck"
-local_files=(
-    "ignore.d.server/local-systemd"
-    "ignore.d.server/local-rsyslogd"
-    "ignore.d.server/local-dhclient"
-    "ignore.d.server/local-container"
-    "ignore.d.server/local-cron"
-)
-
-for local_file in "${local_files[@]}"
-do
-  destname=${logcheck_path}/${local_file}
-  echo "Copying ${local_file} to ${destname}"
-  cp ${local_file} ${destname}
+#!/bin/sh
+set -e
+cd ./ignore.d.server
+for name in * ; do
+    echo $name
+    path="/etc/logcheck/ignore.d.server/local-$name"
+    if [ ! -f "$path" ] ; then
+        ln -s "$(readlink -f "$name")" "$path"
+    fi
 done
