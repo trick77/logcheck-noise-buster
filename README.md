@@ -1,6 +1,8 @@
 # LogCheck Noise Buster
 
-Extra LogCheck filter rules for Debian installations.
+Extra LogCheck filter rules for Debian server installations.
+
+[![Run tests](https://github.com/trick77/logcheck-noise-buster/actions/workflows/test.yml/badge.svg)](https://github.com/trick77/logcheck-noise-buster/actions/workflows/test.yml)
 
 ## Installation
 
