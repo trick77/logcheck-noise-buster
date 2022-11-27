@@ -12,5 +12,6 @@ jobs:
     - run: sudo apt-get update
     - run: sudo apt install -y logcheck
     - working-directory: ./debian-11-bullseye
-    - run: ./test.sh
-    - run: sudo ./install.sh
+      run: ./test.sh
+    - working-directory: ./debian-11-bullseye
+      run: sudo ./install.sh
