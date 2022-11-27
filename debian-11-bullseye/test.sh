@@ -8,7 +8,7 @@ RESET="\e[0m"
 for file in test/* ; do
     NAME=$(basename "$file")
     echo -n "Testing $NAME ... "
-    LOG_LINES=$(logcheck-test -q -i -l "$file" -r "ignore.d/$NAME")
+    LOG_LINES=$(logcheck-test -q -i -l "$file" -r "ignore.d.server/$NAME")
     RESULT=$?
     LOG_COUNT=$(echo -n "$LOG_LINES" | wc -l)
     if [ "$RESULT" -ne 1 ] || [ "$LOG_COUNT" -ne 0 ] ; then
