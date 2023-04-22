@@ -1,3 +1,3 @@
-Apr 22 00:00:02 caleidoscoop crowdsec[41015]: 2023/04/22 00:00:02 Re-opening moved/deleted file 
+Apr 22 00:00:02 wopr crowdsec[41015]: 2023/04/22 00:00:02 Re-opening moved/deleted file 
 /var/log/apache2/error.log ...
-Apr 22 00:00:02 caleidoscoop crowdsec[41015]: 2023/04/22 00:00:02 Successfully reopened /var/log/apache2/error.log
+Apr 22 00:00:02 wopr crowdsec[41015]: 2023/04/22 00:00:02 Successfully reopened /var/log/apache2/error.log
