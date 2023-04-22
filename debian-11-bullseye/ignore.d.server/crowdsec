@@ -1,0 +1,3 @@
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ crowdsec[[[:digit:]]+\]: Re-opening moved/deleted file .*/error.log \.\.\.*$ 
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ crowdsec[[[:digit:]]+\]: Successfully reopened .*/error.log \.\.\.$
+
