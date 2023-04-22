@@ -27,6 +27,4 @@ Nov 27 15:46:34 wopr systemd[1]: Starting User Manager for UID 1000...
 Nov 27 00:00:08 wopr systemd[1]: rsyslog.service: Sent signal SIGHUP to main process 492 (rsyslogd) on client request.
 Dec  3 06:25:01 wopr systemd: pam_unix(systemd-user:session): session opened for user nobody(uid=65534) by 
 (uid=0)
-Nov 28 19:55:54 wopr systemd[1]: user-1000.slice: Consumed 4.453s CPU time.
-Nov 28 19:55:44 wopr systemd[1]: session-14194.scope: Consumed 4.269s CPU time.
 
