@@ -1,3 +1,3 @@
-^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ crowdsec[[[:digit:]]+\]: [ /:[:digit:]]{19} Re-opening moved/deleted file .*/\.log \.\.\.$ 
-^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ crowdsec[[[:digit:]]+\]: [ /:[:digit:]]{19} Successfully reopened .*/\.log$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ crowdsec[[[:digit:]]+\]: [ /:[:digit:]]{19} Re-opening moved/deleted file .* \.\.\.$ 
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ crowdsec[[[:digit:]]+\]: [ /:[:digit:]]{19} Successfully reopened .*$
 
