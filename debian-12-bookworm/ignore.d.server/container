@@ -1,0 +1,1 @@
+(dockerd|containerd)\[[0-9]+\]: time="[._[:alnum:]-]+" level=info msg=.*$
