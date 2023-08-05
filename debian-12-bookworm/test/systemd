@@ -1,10 +1,6 @@
 2023-08-04T06:05:15.103545+02:00 wopr systemd[1]: Starting Cleanup of Temporary Directories...
 2023-08-04T06:05:15.103545+02:00 wopr systemd[1]: Finished Online ext4 Metadata Check for All Filesystems.
-2023-08-04T06:05:15.103545+02:00 wopr systemd[1]: phpsessionclean.service: Succeeded.
 2023-08-04T06:05:15.103545+02:00 wopr systemd[1]: e2scrub_all.service: Succeeded.
-2023-08-04T06:05:15.103545+02:00 wopr systemd[1]: Finished Clean php session files.
-2023-08-04T06:05:15.103545+02:00 wopr systemd[1]: phpsessionclean.service: Succeeded.
-2023-08-04T06:05:15.103545+02:00 wopr systemd[1]: Starting Clean php session files...
 2023-08-04T06:05:15.103545+02:00 wopr systemd[1241222]: Listening on GnuPG network certificate management daemon.
 2023-08-04T06:05:15.103545+02:00 wopr systemd[1241222]: Queued start job for default target Main User Target.
 2023-08-04T06:05:15.103545+02:00 wopr systemd[1241222]: Created slice User Application Slice.
@@ -27,3 +23,6 @@
 2023-08-04T06:05:15.103545+02:00 wopr systemd[1]: rsyslog.service: Sent signal SIGHUP to main process 492 (rsyslogd) on client request.
 2023-08-04T06:05:15.103545+02:00 wopr systemd[1]: Starting Certbot...
 2023-08-04T06:05:15.103545+02:00 wopr systemd[1]: Finished Certbot.
+2023-08-05T08:09:01.722388+02:00 wopr systemd[1]: Starting phpsessionclean.service - Clean php session files...
+2023-08-05T08:09:01.776783+02:00 wopr systemd[1]: phpsessionclean.service: Deactivated successfully.
+2023-08-05T08:09:01.776932+02:00 wopr systemd[1]: Finished phpsessionclean.service - Clean php session files.
