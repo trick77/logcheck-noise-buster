@@ -18,7 +18,8 @@ systemd\[[0-9]+\]: Startup finished in [0-9]+ms\.$
 systemd\[[0-9]+\]: (Reached|Stopped) target (Default|Basic System|Paths|Timers|Sockets)\.$
 systemd\[[0-9]+\]: Listening on GnuPG .*\.$
 systemd\[[0-9]+\]: Listening on D-Bus User Message Bus Socket\.$
-systemd\[[0-9]+\]: (Starting|Finished) Clean php session files\..*$
+systemd\[[0-9]+\]: (Starting|Finished) phpsessionclean.service - Clean php session files\..*$
+systemd\[[0-9]+\]: *.\.service: Deactivated successfully\.$
 systemd\[[0-9]+\]: (Starting|Finished) Cleanup of Temporary Directories\..*$
 systemd\[[0-9]+\]: (Reloading|Reloaded) The Apache HTTP Server\.$
 systemd\[[0-9]+\]: [a-z-]+.service: Sent signal SIGHUP to main process [0-9]+ \([a-z-]+\) on client request\.$
