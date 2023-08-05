@@ -1,2 +1,1 @@
-rsyslogd\[[0-9]+\]: [origin software="rsyslogd" swVersion="[0-9.]+" x-pid="[[:digit:]]+" 
-x-info="https:\/\/www.rsyslog.com"] rsyslogd was HUPed$
+rsyslogd\[[0-9]+\]: [origin software="rsyslogd" swVersion="[0-9.]+" x-pid="[[:digit:]]+" x-info="https:\/\/www.rsyslog.com"] rsyslogd was HUPed$
