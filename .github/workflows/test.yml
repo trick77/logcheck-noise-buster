@@ -11,7 +11,7 @@ jobs:
     - uses: actions/checkout@v3
     - run: sudo apt-get update
     - run: sudo apt install -y logcheck
-    - working-directory: ./debian-11-bullseye
+    - working-directory: ./debian-12-bookworm
       run: ./test.sh
-    - working-directory: ./debian-11-bullseye
+    - working-directory: ./debian-12-bookworm
       run: sudo ./install.sh
