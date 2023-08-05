@@ -21,7 +21,6 @@ systemd\[[0-9]+\]: Listening on D-Bus User Message Bus Socket\.$
 systemd\[[0-9]+\]: (Starting|Finished) Clean php session files\..*$
 systemd\[[0-9]+\]: (Starting|Finished) Cleanup of Temporary Directories\..*$
 systemd\[[0-9]+\]: (Reloading|Reloaded) The Apache HTTP Server\.$
-systemd\[[0-9]+\]: [a-z-]+.service: Sent signal SIGHUP to main process [0-9]+ \([a-z-]+\) on client 
-request\.$
+systemd\[[0-9]+\]: [a-z-]+.service: Sent signal SIGHUP to main process [0-9]+ \([a-z-]+\) on client request\.$
 systemd\[[0-9]+\]: Consumed [0-9.]+s CPU time\.$
 systemd\[[0-9]+\]: (Starting|Finished) Certbot\..*$
