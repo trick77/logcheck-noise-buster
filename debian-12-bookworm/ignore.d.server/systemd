@@ -1,27 +1,6 @@
-systemd\[[0-9]+\]: (Starting|Finished) Daily apt upgrade and clean activities\..*$
-systemd\[[0-9]+\]: (Created|Removed) slice User Slice of UID [0-9]+.*\.$
-systemd\[[0-9]+\]: (Created|Removed) slice User Application Slice\.$
-systemd\[[0-9]+\]: (Starting|Listening on|Closed) D-Bus User Message Bus Socket\.$
-systemd\[[0-9]+\]: (Reached|Finished) Exit the Session\.$
-systemd\[[0-9]+\]: (Starting|Started|Stopping|Stopped|Finished) User Runtime Directory /run/user/.*$
-systemd\[[0-9]+\]: Queued start job for default target Main User Target\.$
-systemd\[[0-9]+\]: (Reached|Stopped) target (Main User Target|Shutdown|Exit the Session)\.$
-systemd\[[0-9]+\]: .*\.(socket|scope|service|mount): Succeeded\.$
-systemd\[[0-9]+\]: (Starting|Finished) .* housekeeping\..*$
-systemd\[[0-9]+\]: (Starting|Finished) Rotate log files\..*$
-systemd\[[0-9]+\]: (Starting|Finished) Daily man-db regeneration\..*$
-systemd\[[0-9]+\]: (Starting|Finished) Daily apt download activities\..*$
-systemd\[[0-9]+\]: (Starting|Finished) Online ext4 Metadata Check for All Filesystems.*$
-systemd\[[0-9]+\]: Started Session [0-9]+ of user [-._[:alnum:]]+\.$
-systemd\[[0-9]+\]: (Starting|Started|Stopping|Stopped) User Manager for UID [0-9]+.*$
-systemd\[[0-9]+\]: Startup finished in [0-9]+ms\.$
-systemd\[[0-9]+\]: (Reached|Stopped) target (Default|Basic System|Paths|Timers|Sockets)\.$
-systemd\[[0-9]+\]: Listening on GnuPG .*\.$
-systemd\[[0-9]+\]: Listening on D-Bus User Message Bus Socket\.$
-systemd\[[0-9]+\]: (Starting|Finished) phpsessionclean.service - Clean php session files\..*$
-systemd\[[0-9]+\]: .* Deactivated successfully\.$
-systemd\[[0-9]+\]: (Starting|Finished) Cleanup of Temporary Directories\..*$
-systemd\[[0-9]+\]: (Reloading|Reloaded) The Apache HTTP Server\.$
-systemd\[[0-9]+\]: [a-z-]+.service: Sent signal SIGHUP to main process [0-9]+ \([a-z-]+\) on client request\.$
-systemd\[[0-9]+\]: Consumed [0-9.]+s CPU time\.$
-systemd\[[0-9]+\]: (Starting|Finished) Certbot\..*$
+systemd\[[0-9]+\]: (Starting|Finished) .*\.service - .*\..*$
+systemd\[[0-9]+\]: (Reloading|Reloaded) .*\.service - .*\..*$
+systemd\[[0-9]+\]: .*: Consumed [0-9.]+s CPU time\.$
+systemd\[[0-9]+\]: (Starting|Started|Stopping|Stopped) user@[0-9]+\.service - User Manager for UID [0-9]+.*$
+systemd\[[0-9]+\]: (Starting|Started|Stopping|Stopped) user-runtime-dir@[0-9]+\.service - User Runtime Directory /run/user/[0-9]+.*$
+systemd\[[0-9]+\]: (Created|Removed) slice user-[0-9]+\.slice - User Slice of UID [0-9]+.*\.$
