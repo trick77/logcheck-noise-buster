@@ -12,4 +12,4 @@ systemd\[[0-9]+\]: Queued start job for default target default\.target\.$
 systemd\[[0-9]+\]: Created slice app\.slice - User Application Slice\.$
 systemd\[[0-9]+\]: Starting dbus\.socket - D-Bus User Message Bus Socket\.\.\.$
 systemd\[[0-9]+\]: Startup finished in [0-9]+ms\.$
-systemd\[[0-9]+\]: run-docker-runtime.*\.mount: Succeeded.
+systemd\[[0-9]+\]: run-docker-runtime.*\.mount: (Deactivated successfully|Succeeded)\.$
