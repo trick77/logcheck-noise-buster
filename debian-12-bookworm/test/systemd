@@ -38,3 +38,14 @@ Aug 06 10:19:24 wopr systemd[67293]: Reached target sockets.target - Sockets.
 Aug 06 10:19:24 wopr systemd[67293]: Reached target basic.target - Basic System.
 Aug 06 10:19:24 wopr systemd[67293]: Reached target default.target - Main User Target.
 Aug 06 10:19:24 wopr systemd[67293]: Startup finished in 89ms.
+Aug 06 18:30:40 wopr systemd[43349]: Closed dbus.socket - D-Bus User Message Bus Socket.
+Aug 06 18:30:40 wopr systemd[43349]: Closed dirmngr.socket - GnuPG network certificate management daemon.
+Aug 06 18:30:40 wopr systemd[43349]: Closed gpg-agent-browser.socket - GnuPG cryptographic agent and passphrase cache (access for web browsers).
+Aug 06 18:30:40 wopr systemd[43349]: Closed gpg-agent-extra.socket - GnuPG cryptographic agent and passphrase cache (restricted).
+Aug 06 18:30:40 wopr systemd[43349]: Closed gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation).
+Aug 06 18:30:40 wopr systemd[43349]: Closed gpg-agent.socket - GnuPG cryptographic agent and passphrase cache.
+Aug 06 18:30:40 wopr systemd[43349]: Removed slice app.slice - User Application Slice.
+Aug 06 18:30:40 wopr systemd[43349]: Reached target shutdown.target - Shutdown.
+Aug 06 18:30:40 wopr systemd[43349]: Reached target exit.target - Exit the Session.
+Aug 06 18:30:30 wopr systemd[1]: session-13.scope: Deactivated successfully.
+Aug 06 18:30:40 wopr systemd[1]: run-user-105.mount: Deactivated successfully.

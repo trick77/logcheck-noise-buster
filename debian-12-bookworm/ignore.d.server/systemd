@@ -6,10 +6,10 @@ systemd\[[0-9]+\]: (Starting|Started|Stopping|Stopped) user-runtime-dir@[0-9]+\.
 systemd\[[0-9]+\]: (Created|Removed) slice user-[0-9]+\.slice - User Slice of UID [0-9]+.*\.$
 systemd\[[0-9]+\]: (Created|Removed) slice user-[0-9]+\.slice - Deactivated successfully$
 systemd\[[0-9]+\]: .*\.service: Deactivated successfully\.$
-systemd\[[0-9]+\]: (Reached|Stopped) target (timers|paths|sockets|basic|default)\.target - .*\.$
-systemd\[[0-9]+\]: Listening on .*\.socket - .*\.$
+systemd\[[0-9]+\]: (Reached|Stopped) target .*\.target - .*\.$
+systemd\[[0-9]+\]: (Listening on|Closed) .*\.socket - .*\.$
 systemd\[[0-9]+\]: Queued start job for default target default\.target\.$
-systemd\[[0-9]+\]: Created slice app\.slice - User Application Slice\.$
+systemd\[[0-9]+\]: (Created|Removed) slice app\.slice - User Application Slice\.$
 systemd\[[0-9]+\]: Starting dbus\.socket - D-Bus User Message Bus Socket\.\.\.$
 systemd\[[0-9]+\]: Startup finished in [0-9]+ms\.$
-systemd\[[0-9]+\]: run-docker-runtime.*\.mount: (Deactivated successfully|Succeeded)\.$
+systemd\[[0-9]+\]: .*\.(scope|mount): (Deactivated successfully|Succeeded)\.$
