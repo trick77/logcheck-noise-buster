@@ -15,3 +15,4 @@ systemd\[[0-9]+\]: Startup finished in [0-9]+ms\.$
 systemd\[[0-9]+\]: .*\.(scope|mount): (Deactivated successfully|Succeeded)\.$
 systemd\[[0-9]+\]: Activating special unit exit\.target\.\.\.$
 systemd\[[0-9]+\]: Started session-[0-9]+\.scope - Session [0-9]+ of User .*\.$
+systemd\[[0-9]+\]: Started packagekit\.service - PackageKit Daemon\.$
