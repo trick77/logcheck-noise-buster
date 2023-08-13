@@ -49,3 +49,5 @@ Aug 06 18:30:40 wopr systemd[43349]: Reached target shutdown.target - Shutdown.
 Aug 06 18:30:40 wopr systemd[43349]: Reached target exit.target - Exit the Session.
 Aug 06 18:30:30 wopr systemd[1]: session-13.scope: Deactivated successfully.
 Aug 06 18:30:40 wopr systemd[1]: run-user-105.mount: Deactivated successfully.
+Aug 13 01:30:05 wopr systemd[851544]: Activating special unit exit.target...
+

@@ -13,3 +13,4 @@ systemd\[[0-9]+\]: (Created|Removed) slice app\.slice - User Application Slice\.
 systemd\[[0-9]+\]: Starting dbus\.socket - D-Bus User Message Bus Socket\.\.\.$
 systemd\[[0-9]+\]: Startup finished in [0-9]+ms\.$
 systemd\[[0-9]+\]: .*\.(scope|mount): (Deactivated successfully|Succeeded)\.$
+systemd\[[0-9]+\]: Activating special unit exit\.target\.\.\.$
