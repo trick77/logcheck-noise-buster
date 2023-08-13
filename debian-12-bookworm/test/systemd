@@ -52,4 +52,3 @@ Aug 06 18:30:40 wopr systemd[1]: run-user-105.mount: Deactivated successfully.
 Aug 13 01:30:05 wopr systemd[851544]: Activating special unit exit.target...
 Aug 13 01:26:08 wopr systemd[1]: Started session-551.scope - Session 551 of User transmission.
 Aug 13 11:04:56 wopr systemd[1]: Started packagekit.service - PackageKit Daemon.
-
