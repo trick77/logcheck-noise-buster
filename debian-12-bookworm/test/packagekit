@@ -1,0 +1,10 @@
+Aug 31 09:07:17 wopr dbus-daemon[624]: [system] Activating via systemd: service name='org.freedesktop.PackageKit' 
+unit='packagekit.service' requested by ':1.76' (uid=0 pid=1560412 comm="/usr/bin/gdbus call --system --dest org.freedeskto")
+Aug 31 09:07:17 wopr PackageKit[1560415]: daemon start
+Aug 31 09:07:17 wopr dbus-daemon[624]: [system] Successfully activated service 'org.freedesktop.PackageKit'
+Aug 31 09:12:22 wopr PackageKit[1560415]: daemon quit
+Sep 01 03:33:06 wopr dbus-daemon[624]: [system] Activating via systemd: service name='org.freedesktop.PackageKit' 
+unit='packagekit.service' requested by ':1.79' (uid=0 pid=1627037 comm="/usr/bin/gdbus call --system --dest org.freedeskto")
+Sep 01 03:33:06 wopr PackageKit[1627040]: daemon start
+Sep 01 03:33:06 wopr dbus-daemon[624]: [system] Successfully activated service 'org.freedesktop.PackageKit'
+Sep 01 03:38:11 wopr PackageKit[1627040]: daemon quit
