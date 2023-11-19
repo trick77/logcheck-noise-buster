@@ -5,3 +5,4 @@
 2023-08-04T06:05:15.103545+02:00 wopr dhclient[399]: DHCPREQUEST for 126.59.233.132 on eth0 to 126.59.232.1 port 67
 2023-08-04T06:05:15.103545+02:00 wopr dhclient[399]: DHCPACK of 126.59.233.132 from 126.59.232.1
 2023-08-04T06:05:15.103545+02:00 wopr dhclient[399]: bound to 126.59.233.132 -- renewal in 37572 seconds.
+Nov 19 10:33:06 wopr dhclient[2009]: XMT: Solicit on eth0, interval 124950ms.
