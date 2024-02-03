@@ -1,0 +1,2 @@
+Feb 03 11:04:44 wopr containerd[4143221]: time="2024-02-03T11:04:44.495978596+01:00" level=info msg="starting signal loop" namespace=moby path=/run/containerd/io.containerd.runtime.v2.task/moby/9ca77b3>
+Feb 03 11:04:44 wopr containerd[4143221]: time="2024-02-03T11:04:44.495326652+01:00" level=info msg="loading plugin \"io.containerd.ttrpc.v1.task\"..." runtime=io.containerd.runc.v2 type=io.containerd.>
