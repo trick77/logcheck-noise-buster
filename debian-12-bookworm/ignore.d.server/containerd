@@ -1,1 +1,2 @@
-(dockerd|containerd)\[[0-9]+\]: time="([^"]*)" level=info msg=.*$
+(dockerd|containerd)\[[0-9]+\]: time="([^"]*)" level=info msg=".*$
+(dockerd|containerd)\[[0-9]+\]: time="([^"]*)" level=warning msg="(cleaning up up after shim disconnected|cleanup warnings time).*$

@@ -1,2 +1,4 @@
 Feb 03 11:04:44 wopr containerd[4143221]: time="2024-02-03T11:04:44.495978596+01:00" level=info msg="starting signal loop" namespace=moby path=/run/containerd/io.containerd.runtime.v2.task/moby/9ca77b3>
 Feb 03 11:04:44 wopr containerd[4143221]: time="2024-02-03T11:04:44.495326652+01:00" level=info msg="loading plugin \"io.containerd.ttrpc.v1.task\"..." runtime=io.containerd.runc.v2 type=io.containerd.>
+Feb 03 11:18:43 wopr containerd[4143221]: time="2024-02-03T11:18:43.142599270+01:00" level=warning msg="cleaning up after shim disconnected" id=9ca77b3537dd47406b5505f434cadfd6d1e69c0ac159261089f4f4de23e48a12 namespace=moby
+Feb 03 11:18:43 wopr containerd[4143221]: time="2024-02-03T11:18:43.150282855+01:00" level=warning msg="cleanup warnings time=\"2024-02-03T11:18:43+01:00\" level=info msg=\"starting signal loop\" namespace=moby pid=3706673 runtime=io.containerd.runc.v2\n"
