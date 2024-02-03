@@ -3,3 +3,5 @@ Feb 02 07:11:44 wopr kernel: br-5ff4447f69ff: port 1(veth63208bd) entered forwar
 Feb 02 07:11:44 wopr kernel: br-5ff4447f69ff: port 1(veth63208bd) entered disabled state
 Feb 02 08:11:56 wopr kernel: eth0: renamed from vetheb588e4
 Feb 02 08:13:46 wopr kernel: device veth66719d0 entered promiscuous mode
+Feb 03 06:02:20 wopr kernel: device vethf3b8835 left promiscuous mode
+
