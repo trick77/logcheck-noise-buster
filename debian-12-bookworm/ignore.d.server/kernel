@@ -1,0 +1,3 @@
+kernel: br-\S+: port .*(veth.*) entered (blocking|forwarding|disabled) state$
+kernel: device veth.* entered promiscuous mode$
+wopr kernel: .*: renamed from veth.*$
