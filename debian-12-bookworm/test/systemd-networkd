@@ -1,6 +1,5 @@
 Feb 03 11:40:38 wopr systemd-networkd[810]: veth2f6afc6: Link DOWN
 Feb 03 11:40:39 wopr systemd-networkd[810]: br-5ff4447f69ff: Lost carrier
-Feb 03 11:40:40 wopr systemd-networkd[810]: veth9c3c381: Link UP
 Feb 03 11:45:06 wopr systemd-networkd[810]: vetha8d65ee: Link UP
 Feb 03 11:40:40 wopr systemd-networkd[810]: veth9c3c381: Gained carrier
 Feb 03 11:40:40 wopr systemd-networkd[810]: br-5ff4447f69ff: Gained carrier
