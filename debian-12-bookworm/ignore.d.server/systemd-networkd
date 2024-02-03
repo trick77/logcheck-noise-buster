@@ -1,0 +1,2 @@
+dhclient\[[0-9]+\]: veth.*: Link (UP|DOWN)
+dhclient\[[0-9]+\]: (veth.*|br-.*): (Gained|Lost) carrier
