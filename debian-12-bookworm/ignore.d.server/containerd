@@ -1,3 +1,3 @@
 (dockerd|containerd)\[[0-9]+\]: time="([^"]*)" level=info msg=".*$
 (dockerd|containerd)\[[0-9]+\]: time="([^"]*)" level=warning msg="(cleaning up after shim disconnected|cleanup warnings time).*$
-(dockerd|containerd)\[[0-9]+\]: time="([^"]*)" level=error msg="\[resolver\] failed to query external DNS server".*$
+(dockerd|containerd)\[[0-9]+\]: time="([^"]*)" level=error msg="\[resolver\] failed to query external DNS server".* PTR".*$
