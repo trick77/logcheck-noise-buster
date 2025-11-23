@@ -21,3 +21,4 @@ Nov 23 08:51:28 wopr sshd-session[2933]: Connection closed by authenticating use
 Nov 23 08:51:41 wopr sshd-session[2940]: Disconnected from 45.78.217.27 port 58890 [preauth]
 Nov 23 08:53:15 wopr sshd-session[3158]: Invalid user ecs-user from 96.43.136.242 port 36592
 Nov 23 08:53:15 wopr sshd-session[3158]: Connection closed by invalid user ecs-user 96.43.136.242 port 36592 [preauth]
+Nov 23 09:01:10 wopr sshd-session[3999]: Connection closed by 45.78.217.27 port 46768 [preauth]

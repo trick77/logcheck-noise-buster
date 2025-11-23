@@ -1,6 +1,7 @@
 sshd-session\[[0-9]+\]: Invalid user [[:alnum:]-]+ from [^ ]+ port [0-9]+$
 sshd-session\[[0-9]+\]: Connection closed by invalid user [[:alnum:]-]+ [^ ]+ port [0-9]+ \[preauth\]$
 sshd-session\[[0-9]+\]: Connection closed by [^ ]+ port [0-9]+$
+sshd-session\[[0-9]+\]: Connection closed by [^ ]+ port [0-9]+ \[preauth\]$
 sshd-session\[[0-9]+\]: Connection closed by authenticating user [[:alnum:]-]+ [^ ]+ port [0-9]+ \[preauth\]$
 sshd-session\[[0-9]+\]: Received disconnect from [^ ]+ port [0-9]+:11:.*\[preauth\]$
 sshd-session\[[0-9]+\]: Disconnected from invalid user [[:alnum:]-]+ [^ ]+ port [0-9]+ \[preauth\]$

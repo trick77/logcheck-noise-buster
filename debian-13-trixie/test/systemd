@@ -11,3 +11,6 @@ Nov 23 08:45:41 wopr systemd[1]: Starting apt-daily.service - Daily apt download
 Nov 23 08:45:45 wopr systemd[1]: apt-daily.service: Deactivated successfully.
 Nov 23 08:45:45 wopr systemd[1]: Finished apt-daily.service - Daily apt download activities.
 Nov 23 08:45:45 wopr systemd[1]: apt-daily.service: Consumed 3.141s CPU time, 240M memory peak.
+Nov 23 08:58:01 wopr systemd[1]: Starting systemd-tmpfiles-clean.service - Cleanup of Temporary Directories...
+Nov 23 08:58:02 wopr systemd[1]: systemd-tmpfiles-clean.service: Deactivated successfully.
+Nov 23 08:58:02 wopr systemd[1]: Finished systemd-tmpfiles-clean.service - Cleanup of Temporary Directories.
