@@ -1,1 +1,1 @@
-unbound\[[0-9]+\]: \[[0-9]+:[0-9]+\] info: generate keytag query _ta-4f66.*\. NULL IN$
+unbound\[\d+\]: \[[0-9]+:[0-9]+\] info: generate keytag query _ta-4f66.*\. NULL IN$

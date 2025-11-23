@@ -1,17 +1,17 @@
-systemd\[[0-9]+\]: Starting logcheck\.service - logcheck\.\.\.$
-systemd\[[0-9]+\]: logcheck\.service: Deactivated successfully\.$
-systemd\[[0-9]+\]: Finished logcheck\.service - logcheck\.$
-systemd\[[0-9]+\]: docker-[[:alnum:]]+\.scope: Deactivated successfully\.$
-systemd\[[0-9]+\]: run-docker-netns-[[:alnum:]]+\.mount: Deactivated successfully\.$
-systemd\[[0-9]+\]: var-lib-docker-rootfs-overlayfs-[[:alnum:]]+\.mount: Deactivated successfully\.$
-systemd\[[0-9]+\]: Started docker-[[:alnum:]]+\.scope - libcontainer container [[:alnum:]]+\.$
-systemd\[[0-9]+\]: Starting apt-daily\.service - Daily apt download activities\.\.\.$
-systemd\[[0-9]+\]: apt-daily\.service: Deactivated successfully\.$
-systemd\[[0-9]+\]: Finished apt-daily\.service - Daily apt download activities\.$
-systemd\[[0-9]+\]: apt-daily\.service: Consumed [0-9.]+s CPU time, [0-9.]+[KMGT] memory peak\.$
-systemd\[[0-9]+\]: Starting systemd-tmpfiles-clean\.service - Cleanup of Temporary Directories\.\.\.$
-systemd\[[0-9]+\]: systemd-tmpfiles-clean\.service: Deactivated successfully\.$
-systemd\[[0-9]+\]: Finished systemd-tmpfiles-clean\.service - Cleanup of Temporary Directories\.$
-systemd\[[0-9]+\]: tmp-containerd\\x2dmount[0-9]+\.mount: Deactivated successfully\.$
-systemd\[[0-9]+\]: var-lib-docker-overlay2-[0-9a-f]+-merged\.mount: Deactivated successfully\.$
-systemd\[[0-9]+\]: docker-[0-9a-f]+\.scope: Consumed [^,]+ CPU time, [^,]+ memory peak, [^,]+ read from disk, [^\.]+ written to disk\.$
+systemd\[\d+\]: Starting logcheck\.service - logcheck\.\.\.$
+systemd\[\d+\]: logcheck\.service: Deactivated successfully\.$
+systemd\[\d+\]: Finished logcheck\.service - logcheck\.$
+systemd\[\d+\]: docker-[[:alnum:]]+\.scope: Deactivated successfully\.$
+systemd\[\d+\]: run-docker-netns-[[:alnum:]]+\.mount: Deactivated successfully\.$
+systemd\[\d+\]: var-lib-docker-rootfs-overlayfs-[[:alnum:]]+\.mount: Deactivated successfully\.$
+systemd\[\d+\]: Started docker-[[:alnum:]]+\.scope - libcontainer container [[:alnum:]]+\.$
+systemd\[\d+\]: Starting apt-daily\.service - Daily apt download activities\.\.\.$
+systemd\[\d+\]: apt-daily\.service: Deactivated successfully\.$
+systemd\[\d+\]: Finished apt-daily\.service - Daily apt download activities\.$
+systemd\[\d+\]: apt-daily\.service: Consumed [\d.]+s CPU time, [\d.]+[KMGT] memory peak\.$
+systemd\[\d+\]: Starting systemd-tmpfiles-clean\.service - Cleanup of Temporary Directories\.\.\.$
+systemd\[\d+\]: systemd-tmpfiles-clean\.service: Deactivated successfully\.$
+systemd\[\d+\]: Finished systemd-tmpfiles-clean\.service - Cleanup of Temporary Directories\.$
+systemd\[\d+\]: tmp-containerd\\x2dmount[0-9a-f]+\.mount: Deactivated successfully\.$
+systemd\[\d+\]: var-lib-docker-overlay2-[0-9a-f]+-merged\.mount: Deactivated successfully\.$
+systemd\[\d+\]: docker-[0-9a-f]+\.scope: Consumed [^,]+ CPU time, [^,]+ memory peak, [^,]+ read from disk, [^\.]+ written to disk\.$

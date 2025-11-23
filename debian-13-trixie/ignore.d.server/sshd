@@ -1,1 +1,1 @@
-sshd\[[0-9]+\]: Timeout before authentication for connection from [^ ]+ to [^ ]+, pid = [0-9]+$
+sshd\[\d+\]: Timeout before authentication for connection from [^ ]+ to [^ ]+, pid = [0-9]+$

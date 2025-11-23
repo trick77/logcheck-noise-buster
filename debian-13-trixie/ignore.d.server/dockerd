@@ -1,3 +1,3 @@
-dockerd\[[0-9]+\]: time="[^"]+" level=info msg=.*$
-dockerd\[[0-9]+\]: time="[^"]+" level=warning msg="ShouldRestart failed, container will not be restarted".* hasBeenManuallyStopped=true.*$
-dockerd\[[0-9]+\]: time="[^"]+" level=error msg="\[resolver\] failed to query external DNS server".*question=";[^"]*\.(in-addr\.arpa|ip6\.arpa)[^"]*PTR"
+dockerd\[\d+\]: time="[^"]+" level=info msg=.*$
+dockerd\[\d+\]: time="[^"]+" level=warning msg="ShouldRestart failed, container will not be restarted".* hasBeenManuallyStopped=true.*$
+dockerd\[\d+\]: time="[^"]+" level=error msg="\[resolver\] failed to query external DNS server".*question=";[^"]*\.(in-addr\.arpa|ip6\.arpa)[^"]*PTR"
