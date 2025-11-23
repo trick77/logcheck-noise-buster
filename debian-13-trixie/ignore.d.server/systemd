@@ -2,7 +2,7 @@ systemd\[[0-9]+\]: Starting logcheck\.service - logcheck\.\.\.$
 systemd\[[0-9]+\]: logcheck\.service: Deactivated successfully\.$
 systemd\[[0-9]+\]: Finished logcheck\.service - logcheck\.$
 systemd\[[0-9]+\]: docker-[[:alnum:]]+\.scope: Deactivated successfully\.$
-systemd\[[0-9]+\]: docker-[[:alnum:]]+\.scope: Consumed [0-9]+ms CPU time, [0-9.]+[KMGT] memory peak, [0-9.]+[KMGT] read from disk\.$
+systemd\[[0-9]+\]: docker-[[:alnum:]]+\.scope: Consumed [0-9.]+[ms]+ CPU time, [0-9.]+[KMGT] memory peak(, [0-9.]+[KMGT] read from disk)?(, [0-9.]+[KMGT] written to disk)?\.$
 systemd\[[0-9]+\]: run-docker-netns-[[:alnum:]]+\.mount: Deactivated successfully\.$
 systemd\[[0-9]+\]: var-lib-docker-rootfs-overlayfs-[[:alnum:]]+\.mount: Deactivated successfully\.$
 systemd\[[0-9]+\]: Started docker-[[:alnum:]]+\.scope - libcontainer container [[:alnum:]]+\.$

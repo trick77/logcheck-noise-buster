@@ -16,3 +16,4 @@ Nov 23 08:58:02 wopr systemd[1]: systemd-tmpfiles-clean.service: Deactivated suc
 Nov 23 08:58:02 wopr systemd[1]: Finished systemd-tmpfiles-clean.service - Cleanup of Temporary Directories.
 Nov 23 09:09:58 wopr systemd[1]: tmp-containerd\x2dmount484194121.mount: Deactivated successfully.
 Nov 23 09:09:59 wopr systemd[1]: tmp-containerd\x2dmount1400607622.mount: Deactivated successfully.
+Nov 23 09:17:47 wopr systemd[1]: docker-21c6256e4aa77f97f2910722721fff1a818bd392b9dead2f224de1621e54f3d8.scope: Consumed 4.506s CPU time, 126.5M memory peak, 10.2M read from disk, 32K written to disk.
