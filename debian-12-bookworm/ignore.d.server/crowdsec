@@ -1,2 +1,2 @@
-crowdsec\[\d+\]: [ /:[:digit:]]{19} Re-opening moved/deleted file .* \.\.\.$
-crowdsec\[\d+\]: [ /:[:digit:]]{19} Successfully reopened .*$
+crowdsec\[[0-9]+\]: [ /:[:digit:]]{19} Re-opening moved/deleted file .* \.\.\.$
+crowdsec\[[0-9]+\]: [ /:[:digit:]]{19} Successfully reopened .*$

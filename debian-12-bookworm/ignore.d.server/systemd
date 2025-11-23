@@ -1,20 +1,20 @@
-systemd\[\d+\]: (Starting|Finished) .*\.service - .*\..*$
-systemd\[\d+\]: (Reloading|Reloaded) .*\.service - .*\..*$
-systemd\[\d+\]: .*: Consumed [0-9.]+s CPU time\.$
-systemd\[\d+\]: (Starting|Started|Stopping|Stopped) user@[0-9]+\.service - User Manager for UID [0-9]+.*$
-systemd\[\d+\]: (Starting|Started|Stopping|Stopped) user-runtime-dir@[0-9]+\.service - User Runtime Directory /run/user/[0-9]+.*$
-systemd\[\d+\]: (Created|Removed) slice user-[0-9]+\.slice - User Slice of UID [0-9]+.*\.$
-systemd\[\d+\]: (Created|Removed) slice user-[0-9]+\.slice - Deactivated successfully$
-systemd\[\d+\]: .*\.service: Deactivated successfully\.$
-systemd\[\d+\]: (Reached|Stopped) target .*\.target - .*\.$
-systemd\[\d+\]: (Listening on|Closed) .*\.socket - .*\.$
-systemd\[\d+\]: Queued start job for default target default\.target\.$
-systemd\[\d+\]: (Created|Removed) slice app\.slice - User Application Slice\.$
-systemd\[\d+\]: Starting dbus\.socket - D-Bus User Message Bus Socket\.\.\.$
-systemd\[\d+\]: Startup finished in [0-9]+ms\.$
-systemd\[\d+\]: .*\.(scope|mount): (Deactivated successfully|Succeeded)\.$
-systemd\[\d+\]: Activating special unit exit\.target\.\.\.$
-systemd\[\d+\]: Started session-[0-9]+\.scope - Session [0-9]+ of User .*\.$
-systemd\[\d+\]: Started packagekit\.service - PackageKit Daemon\.$
-systemd\[\d+\]: Started docker-.* - libcontainer container.*$
+systemd\[[0-9]+\]: (Starting|Finished) .*\.service - .*\..*$
+systemd\[[0-9]+\]: (Reloading|Reloaded) .*\.service - .*\..*$
+systemd\[[0-9]+\]: .*: Consumed [0-9.]+s CPU time\.$
+systemd\[[0-9]+\]: (Starting|Started|Stopping|Stopped) user@[0-9]+\.service - User Manager for UID [0-9]+.*$
+systemd\[[0-9]+\]: (Starting|Started|Stopping|Stopped) user-runtime-dir@[0-9]+\.service - User Runtime Directory /run/user/[0-9]+.*$
+systemd\[[0-9]+\]: (Created|Removed) slice user-[0-9]+\.slice - User Slice of UID [0-9]+.*\.$
+systemd\[[0-9]+\]: (Created|Removed) slice user-[0-9]+\.slice - Deactivated successfully$
+systemd\[[0-9]+\]: .*\.service: Deactivated successfully\.$
+systemd\[[0-9]+\]: (Reached|Stopped) target .*\.target - .*\.$
+systemd\[[0-9]+\]: (Listening on|Closed) .*\.socket - .*\.$
+systemd\[[0-9]+\]: Queued start job for default target default\.target\.$
+systemd\[[0-9]+\]: (Created|Removed) slice app\.slice - User Application Slice\.$
+systemd\[[0-9]+\]: Starting dbus\.socket - D-Bus User Message Bus Socket\.\.\.$
+systemd\[[0-9]+\]: Startup finished in [0-9]+ms\.$
+systemd\[[0-9]+\]: .*\.(scope|mount): (Deactivated successfully|Succeeded)\.$
+systemd\[[0-9]+\]: Activating special unit exit\.target\.\.\.$
+systemd\[[0-9]+\]: Started session-[0-9]+\.scope - Session [0-9]+ of User .*\.$
+systemd\[[0-9]+\]: Started packagekit\.service - PackageKit Daemon\.$
+systemd\[[0-9]+\]: Started docker-.* - libcontainer container.*$
 

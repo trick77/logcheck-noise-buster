@@ -1,4 +1,4 @@
-systemd-networkd\[\d+\]: veth.*: Link (UP|DOWN)$
-systemd-networkd\[\d+\]: (veth.*|br-.*): (Gained|Lost) carrier$
-systemd-networkd\[\d+\]: veth.*: Gained IPv6LL$
+systemd-networkd\[[0-9]+\]: veth.*: Link (UP|DOWN)$
+systemd-networkd\[[0-9]+\]: (veth.*|br-.*): (Gained|Lost) carrier$
+systemd-networkd\[[0-9]+\]: veth.*: Gained IPv6LL$
 

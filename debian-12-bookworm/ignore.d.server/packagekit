@@ -1,3 +1,3 @@
-dbus-daemon\[\d+\]: \[system\] Activating via systemd: service name='org.freedesktop.PackageKit'.*$
-dbus-daemon\[\d+\]: \[system\] Successfully activated service 'org.freedesktop.PackageKit'$
-PackageKit\[\d+\]: daemon (start|quit)$
+dbus-daemon\[[0-9]+\]: \[system\] Activating via systemd: service name='org.freedesktop.PackageKit'.*$
+dbus-daemon\[[0-9]+\]: \[system\] Successfully activated service 'org.freedesktop.PackageKit'$
+PackageKit\[[0-9]+\]: daemon (start|quit)$

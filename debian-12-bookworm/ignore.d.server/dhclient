@@ -1,4 +1,4 @@
-dhclient\[\d+\]: DHCPREQUEST for [:.[:xdigit:]]+ on [[:alnum:].-]+ to [.0-9]{7,15} port 67$
-dhclient\[\d+\]: DHCPACK of [:.[:xdigit:]]+ from [.0-9]{7,15}$
-dhclient\[\d+\]: bound to [:.[:xdigit:]]+ -- renewal in [0-9]+ seconds\.$
-dhclient\[\d+\]: XMT: Solicit on [[:alnum:].-]+, interval [0-9]+ms\.$
+dhclient\[[0-9]+\]: DHCPREQUEST for [:.[:xdigit:]]+ on [[:alnum:].-]+ to [.0-9]{7,15} port 67$
+dhclient\[[0-9]+\]: DHCPACK of [:.[:xdigit:]]+ from [.0-9]{7,15}$
+dhclient\[[0-9]+\]: bound to [:.[:xdigit:]]+ -- renewal in [0-9]+ seconds\.$
+dhclient\[[0-9]+\]: XMT: Solicit on [[:alnum:].-]+, interval [0-9]+ms\.$
