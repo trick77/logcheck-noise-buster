@@ -1,0 +1,1 @@
+smartd\[\d+\]: Device: /dev/sd[a-z] \[SAT\], SMART Usage Attribute: 194 Temperature_Celsius changed from \d+ to \d+$
