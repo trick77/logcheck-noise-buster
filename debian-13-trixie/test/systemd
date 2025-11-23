@@ -1,0 +1,9 @@
+Nov 22 15:16:39 wopr systemd[1]: Starting logcheck.service - logcheck...
+Nov 22 15:16:49 wopr systemd[1]: logcheck.service: Deactivated successfully.
+Nov 22 15:16:49 wopr systemd[1]: Finished logcheck.service - logcheck.
+Nov 23 03:00:00 wopr systemd[1]: docker-2af480a35f4087668b376c8cbc167cfa16a478ec2cdfbc6d3779141be3df40e1.scope: Deactivated successfully.
+Nov 23 03:00:00 wopr systemd[1]: docker-2af480a35f4087668b376c8cbc167cfa16a478ec2cdfbc6d3779141be3df40e1.scope: Consumed 873ms CPU time, 65.7M memory peak, 2M read from disk.
+Nov 23 03:00:00 wopr systemd[1]: run-docker-netns-36eab6625997.mount: Deactivated successfully.
+Nov 23 03:00:00 wopr systemd[1]: var-lib-docker-rootfs-overlayfs-2af480a35f4087668b376c8cbc167cfa16a478ec2cdfbc6d3779141be3df40e1.mount: Deactivated successfully.
+Nov 23 03:00:01 wopr systemd[1]: Started docker-2af480a35f4087668b376c8cbc167cfa16a478ec2cdfbc6d3779141be3df40e1.scope - libcontainer container 2af480a35f4087668b376c8cbc167cfa16a478ec2cdfbc6d3779141be3df40e1.
+Nov 23 06:03:05 wopr systemd[1]: Starting logcheck.service - logcheck...

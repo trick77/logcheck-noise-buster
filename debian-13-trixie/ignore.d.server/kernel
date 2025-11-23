@@ -1,0 +1,9 @@
+kernel: br-[[:alnum:]]+: port [0-9]+\(veth[[:alnum:]]+\) entered disabled state$
+kernel: veth[[:alnum:]]+ \(unregistering\): left allmulticast mode$
+kernel: veth[[:alnum:]]+ \(unregistering\): left promiscuous mode$
+kernel: veth[[:alnum:]]+: renamed from .*$
+kernel: br-[[:alnum:]]+: port [0-9]+\(veth[[:alnum:]]+\) entered blocking state$
+kernel: veth[[:alnum:]]+: entered allmulticast mode$
+kernel: veth[[:alnum:]]+: entered promiscuous mode$
+kernel: .*: renamed from veth[[:alnum:]]+$
+kernel: br-[[:alnum:]]+: port [0-9]+\(veth[[:alnum:]]+\) entered forwarding state$

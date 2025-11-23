@@ -1,0 +1,9 @@
+nullmailer-send\[[0-9]+\]: Trigger pulled\.$
+nullmailer-send\[[0-9]+\]: Rescanning queue\.$
+nullmailer-send\[[0-9]+\]: Starting delivery, [0-9]+ message\(s\) in queue\.$
+nullmailer-send\[[0-9]+\]: Starting delivery: host: [._[:alnum:]-]+ protocol: [[:alnum:]]+ file: [0-9]+\.[0-9]+$
+nullmailer-send\[[0-9]+\]: From: <[^>]+> to: <[^>]+>$
+nullmailer-send\[[0-9]+\]: Message-Id: <[^>]+>$
+nullmailer-send\[[0-9]+\]: smtp: Succeeded: [0-9]+ [0-9]+\.[0-9]+\.[0-9]+ Ok: queued as [[:alnum:]]+$
+nullmailer-send\[[0-9]+\]: Sent file\.$
+nullmailer-send\[[0-9]+\]: Delivery complete, [0-9]+ message\(s\) remain\.$

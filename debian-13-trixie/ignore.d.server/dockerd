@@ -1,0 +1,1 @@
+dockerd\[[0-9]+\]: time="[0-9T:.-]+Z" level=info msg=.*$

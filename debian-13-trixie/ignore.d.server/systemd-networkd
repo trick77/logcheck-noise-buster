@@ -1,0 +1,5 @@
+systemd-networkd\[[0-9]+\]: veth[[:alnum:]]+: Lost carrier$
+systemd-networkd\[[0-9]+\]: veth[[:alnum:]]+: Link DOWN$
+systemd-networkd\[[0-9]+\]: veth[[:alnum:]]+: Link UP$
+systemd-networkd\[[0-9]+\]: veth[[:alnum:]]+: Gained carrier$
+systemd-networkd\[[0-9]+\]: veth[[:alnum:]]+: Gained IPv6LL$

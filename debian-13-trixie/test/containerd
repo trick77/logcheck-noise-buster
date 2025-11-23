@@ -1,0 +1,4 @@
+Nov 23 03:00:00 wopr containerd[797]: time="2025-11-23T03:00:00.815822755Z" level=info msg="shim disconnected" id=2af480a35f4087668b376c8cbc167cfa16a478ec2cdfbc6d3779141be3df40e1 namespace=moby
+Nov 23 03:00:00 wopr containerd[797]: time="2025-11-23T03:00:00.815913548Z" level=info msg="cleaning up after shim disconnected" id=2af480a35f4087668b376c8cbc167cfa16a478ec2cdfbc6d3779141be3df40e1 namespace=moby
+Nov 23 03:00:00 wopr containerd[797]: time="2025-11-23T03:00:00.815929921Z" level=info msg="cleaning up dead shim" id=2af480a35f4087668b376c8cbc167cfa16a478ec2cdfbc6d3779141be3df40e1 namespace=moby
+Nov 23 03:00:00 wopr containerd[797]: time="2025-11-23T03:00:00.982177834Z" level=info msg="connecting to shim 2af480a35f4087668b376c8cbc167cfa16a478ec2cdfbc6d3779141be3df40e1" address="unix:///run/containerd/s/a46f1458981ec0d680d7ac78e30fa6e8052066c6962ef29db04f6b2d9081f882" namespace=moby protocol=ttrpc version=3

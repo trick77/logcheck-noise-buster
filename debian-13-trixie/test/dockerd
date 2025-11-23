@@ -1,0 +1,2 @@
+Nov 23 03:00:00 wopr dockerd[807]: time="2025-11-23T03:00:00.815461474Z" level=info msg="ignoring event" container=2af480a35f4087668b376c8cbc167cfa16a478ec2cdfbc6d3779141be3df40e1 module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+Nov 23 03:00:01 wopr dockerd[807]: time="2025-11-23T03:00:01.191247319Z" level=info msg="sbJoin: gwep4 ''->'2dc0ebc273f7', gwep6 ''->''" eid=2dc0ebc273f7 ep=mariadb-backup net=database_net nid=4e22595d0f31

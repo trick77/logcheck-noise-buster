@@ -1,0 +1,5 @@
+Nov 23 03:00:00 wopr systemd-networkd[547]: vethaf29d39: Lost carrier
+Nov 23 03:00:00 wopr systemd-networkd[547]: vethaf29d39: Link DOWN
+Nov 23 03:00:01 wopr systemd-networkd[547]: veth2b2cd67: Link UP
+Nov 23 03:00:01 wopr systemd-networkd[547]: veth2b2cd67: Gained carrier
+Nov 23 03:00:02 wopr systemd-networkd[547]: veth2b2cd67: Gained IPv6LL

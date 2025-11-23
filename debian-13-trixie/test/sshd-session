@@ -1,0 +1,18 @@
+Nov 22 15:16:54 wopr sshd-session[1671]: Invalid user user from 45.148.10.240 port 51760
+Nov 22 15:16:54 wopr sshd-session[1671]: Connection closed by invalid user user 45.148.10.240 port 51760 [preauth]
+Nov 22 15:18:06 wopr sshd-session[1781]: Connection closed by 120.220.6.7 port 48544
+Nov 22 15:18:30 wopr sshd-session[1804]: Connection closed by authenticating user root 48.214.55.33 port 1024 [preauth]
+Nov 22 15:18:48 wopr sshd-session[1827]: Connection closed by authenticating user root 68.220.59.210 port 48128 [preauth]
+Nov 22 15:18:53 wopr sshd-session[1831]: Invalid user solv from 45.148.10.240 port 49126
+Nov 22 15:18:53 wopr sshd-session[1831]: Connection closed by invalid user solv 45.148.10.240 port 49126 [preauth]
+Nov 22 15:18:53 wopr sshd-session[1829]: Invalid user solv from 64.227.174.124 port 54070
+Nov 22 15:18:53 wopr sshd-session[1829]: Connection closed by invalid user solv 64.227.174.124 port 54070 [preauth]
+Nov 23 03:00:05 wopr sshd-session[55184]: Invalid user guest from 148.227.3.232 port 56720
+Nov 23 03:00:05 wopr sshd-session[55184]: Received disconnect from 148.227.3.232 port 56720:11: Bye Bye [preauth]
+Nov 23 03:00:05 wopr sshd-session[55184]: Disconnected from invalid user guest 148.227.3.232 port 56720 [preauth]
+Nov 23 03:00:54 wopr sshd-session[55216]: error: kex_exchange_identification: read: Connection reset by peer
+Nov 23 03:00:54 wopr sshd-session[55216]: Connection reset by 79.135.44.68 port 50872
+Nov 23 03:01:54 wopr sshd-session[55295]: Received disconnect from 62.60.131.157 port 20732:11: Bye [preauth]
+Nov 23 03:01:54 wopr sshd-session[55295]: Disconnected from invalid user abagail 62.60.131.157 port 20732 [preauth]
+Nov 23 06:01:43 wopr sshd-session[65349]: Received disconnect from 43.157.169.99 port 44872:11: Bye Bye [preauth]
+Nov 23 06:01:43 wopr sshd-session[65349]: Disconnected from authenticating user root 43.157.169.99 port 44872 [preauth]

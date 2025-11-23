@@ -1,0 +1,9 @@
+sshd-session\[[0-9]+\]: Invalid user [[:alnum:]]+ from [0-9.]+ port [0-9]+$
+sshd-session\[[0-9]+\]: Connection closed by invalid user [[:alnum:]]+ [0-9.]+ port [0-9]+ \[preauth\]$
+sshd-session\[[0-9]+\]: Connection closed by [0-9.]+ port [0-9]+$
+sshd-session\[[0-9]+\]: Connection closed by authenticating user [[:alnum:]]+ [0-9.]+ port [0-9]+ \[preauth\]$
+sshd-session\[[0-9]+\]: Received disconnect from [0-9.]+ port [0-9]+:11: Bye( Bye)? \[preauth\]$
+sshd-session\[[0-9]+\]: Disconnected from invalid user [[:alnum:]]+ [0-9.]+ port [0-9]+ \[preauth\]$
+sshd-session\[[0-9]+\]: Disconnected from authenticating user [[:alnum:]]+ [0-9.]+ port [0-9]+ \[preauth\]$
+sshd-session\[[0-9]+\]: error: kex_exchange_identification: read: Connection reset by peer$
+sshd-session\[[0-9]+\]: Connection reset by [0-9.]+ port [0-9]+$
