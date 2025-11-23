@@ -1,1 +1,1 @@
-containerd\[\d+\]: time="[^"]+" level=info msg=.*$
+containerd\[[0-9]+\]: time="[^"]+" level=info msg=.*$
