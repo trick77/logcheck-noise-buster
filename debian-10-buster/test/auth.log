@@ -1,7 +1,0 @@
-Jan 16 07:33:41 wopr sshd[21472]: Received disconnect from 164.132.92.187 port 47294:11: Bye Bye [preauth]
-Jan 16 09:25:38 wopr sshd[21866]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=31.215.134.100
-Jan 16 12:33:12 wopr sshd[22166]: Connection reset by 45.83.64.153 port 14178 [preauth]
-Jan 17 02:51:29 wopr sshd[17928]: Disconnected from authenticating user root 193.161.13.242 port 33246 [preauth]
-Jan 26 05:04:13 wopr sshd[19740]: Failed none for invalid user  from 139.162.122.110 port 45474 ssh2
-Jan 24 23:30:18 wopr sshd[15689]: Failed password for www-data from 78.130.225.131 port 51200 ssh2
-Feb  1 16:47:28 wopr sshd[17237]: error: Received disconnect from 180.149.125.172 port 37764:7: Service not available [preauth]

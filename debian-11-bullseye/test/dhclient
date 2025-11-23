@@ -1,7 +1,0 @@
-Nov 27 04:20:39 wopr dhclient[399]: DHCPREQUEST for 126.59.233.132 on eth0 to 126.59.232.1 port 67
-Nov 27 04:20:39 wopr dhclient[399]: DHCPACK of 126.59.233.132 from 126.59.232.1
-Nov 27 08:43:47 wopr dhclient[311]: DHCPREQUEST for 126.59.233.132 on eth0 to 126.59.232.1 port 67
-Nov 27 08:43:47 wopr dhclient[311]: DHCPACK of 126.59.233.132 from 126.59.232.1
-Nov 27 13:48:05 wopr dhclient[399]: DHCPREQUEST for 126.59.233.132 on eth0 to 126.59.232.1 port 67
-Nov 27 13:48:05 wopr dhclient[399]: DHCPACK of 126.59.233.132 from 126.59.232.1
-Nov 27 13:48:05 wopr dhclient[399]: bound to 126.59.233.132 -- renewal in 37572 seconds.
