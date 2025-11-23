@@ -1,17 +1,17 @@
-Nov 22 15:40:55 wopr kernel: br-d33d5b07c36b: port 1(veth9e6a1ee) entered disabled state
-Nov 22 15:40:55 wopr kernel: veth9e6a1ee (unregistering): left allmulticast mode
-Nov 22 15:40:55 wopr kernel: veth9e6a1ee (unregistering): left promiscuous mode
-Nov 22 15:40:55 wopr kernel: br-d33d5b07c36b: port 1(veth9e6a1ee) entered disabled state
-Nov 23 03:00:00 wopr kernel: vethc82f602: renamed from eth0
+Nov 23 03:00:00 wopr kernel: br-4e22595d0f31: port 3(vethaf29d39) entered disabled state
 Nov 23 03:00:00 wopr kernel: br-4e22595d0f31: port 3(vethaf29d39) entered disabled state
 Nov 23 03:00:00 wopr kernel: br-4e22595d0f31: port 3(vethaf29d39) entered disabled state
 Nov 23 03:00:00 wopr kernel: vethaf29d39 (unregistering): left allmulticast mode
 Nov 23 03:00:00 wopr kernel: vethaf29d39 (unregistering): left promiscuous mode
-Nov 23 03:00:00 wopr kernel: br-4e22595d0f31: port 3(vethaf29d39) entered disabled state
+Nov 23 03:00:00 wopr kernel: vethc82f602: renamed from eth0
+Nov 23 03:00:01 wopr kernel: br-4e22595d0f31: port 3(veth2b2cd67) entered blocking state
 Nov 23 03:00:01 wopr kernel: br-4e22595d0f31: port 3(veth2b2cd67) entered blocking state
 Nov 23 03:00:01 wopr kernel: br-4e22595d0f31: port 3(veth2b2cd67) entered disabled state
+Nov 23 03:00:01 wopr kernel: br-4e22595d0f31: port 3(veth2b2cd67) entered forwarding state
+Nov 23 03:00:01 wopr kernel: eth0: renamed from veth4d0b595
 Nov 23 03:00:01 wopr kernel: veth2b2cd67: entered allmulticast mode
 Nov 23 03:00:01 wopr kernel: veth2b2cd67: entered promiscuous mode
-Nov 23 03:00:01 wopr kernel: eth0: renamed from veth4d0b595
-Nov 23 03:00:01 wopr kernel: br-4e22595d0f31: port 3(veth2b2cd67) entered blocking state
-Nov 23 03:00:01 wopr kernel: br-4e22595d0f31: port 3(veth2b2cd67) entered forwarding state
+Nov 22 15:40:55 wopr kernel: br-d33d5b07c36b: port 1(veth9e6a1ee) entered disabled state
+Nov 22 15:40:55 wopr kernel: br-d33d5b07c36b: port 1(veth9e6a1ee) entered disabled state
+Nov 22 15:40:55 wopr kernel: veth9e6a1ee (unregistering): left allmulticast mode
+Nov 22 15:40:55 wopr kernel: veth9e6a1ee (unregistering): left promiscuous mode
