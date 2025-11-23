@@ -23,5 +23,4 @@ Nov 23 08:53:15 wopr sshd-session[3158]: Invalid user ecs-user from 96.43.136.24
 Nov 23 08:53:15 wopr sshd-session[3158]: Connection closed by invalid user ecs-user 96.43.136.242 port 36592 [preauth]
 Nov 23 09:01:10 wopr sshd-session[3999]: Connection closed by 45.78.217.27 port 46768 [preauth]
 Nov 23 09:03:18 wopr sshd-session[4681]: Unable to negotiate with 146.190.174.211 port 6101: no matching key exchange method found. Their offer: diffie-hellman-group14-sha1,diffie-hellman-group1-sha1,diffie-hellman-group14-sha256,diffie-hellman-group16-sha512,diffie-hellman-group18-sha512,diffie-hellman-group-exchange-sha1,diffie-hellman-group-exchange-sha256 [preauth]
-Nov 23 17:09:20 wopr sshd-session[44544]: banner exchange: Connection from 167.172.135.159 port 39392: invalid format
 Nov 23 17:09:20 wopr sshd-session[44545]: banner exchange: Connection from 167.172.135.159 port 39402: invalid format
