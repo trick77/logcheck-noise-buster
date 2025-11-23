@@ -15,3 +15,8 @@ systemd\[\d+\]: Finished systemd-tmpfiles-clean\.service - Cleanup of Temporary 
 systemd\[\d+\]: tmp-containerd\\x2dmount[0-9a-f]+\.mount: Deactivated successfully\.$
 systemd\[\d+\]: var-lib-docker-overlay2-[0-9a-f]+-merged\.mount: Deactivated successfully\.$
 systemd\[\d+\]: docker-[0-9a-f]+\.scope: Consumed [^,]+ CPU time, [^,]+ memory peak, [^,]+ read from disk, [^\.]+ written to disk\.$
+systemd\[\d+\]: Queued start job for default target default\.target\.$
+systemd\[\d+\]: Created slice [^:]+\.slice - .*\.$
+systemd\[\d+\]: Reached target [^:]+\.target - .*\.$
+systemd\[\d+\]: (Starting|Listening on) [^:]+\.socket - .*\.$
+systemd\[\d+\]: Startup finished in [\d.]+ms\.$
