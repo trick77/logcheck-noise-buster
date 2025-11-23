@@ -16,3 +16,8 @@ Nov 23 03:01:54 wopr sshd-session[55295]: Received disconnect from 62.60.131.157
 Nov 23 03:01:54 wopr sshd-session[55295]: Disconnected from invalid user abagail 62.60.131.157 port 20732 [preauth]
 Nov 23 06:01:43 wopr sshd-session[65349]: Received disconnect from 43.157.169.99 port 44872:11: Bye Bye [preauth]
 Nov 23 06:01:43 wopr sshd-session[65349]: Disconnected from authenticating user root 43.157.169.99 port 44872 [preauth]
+Nov 23 08:47:36 wopr sshd-session[2502]: Received disconnect from 80.94.93.119 port 50568:11:  [preauth]
+Nov 23 08:51:28 wopr sshd-session[2933]: Connection closed by authenticating user www-data 142.93.142.99 port 50034 [preauth]
+Nov 23 08:51:41 wopr sshd-session[2940]: Disconnected from 45.78.217.27 port 58890 [preauth]
+Nov 23 08:53:15 wopr sshd-session[3158]: Invalid user ecs-user from 96.43.136.242 port 36592
+Nov 23 08:53:15 wopr sshd-session[3158]: Connection closed by invalid user ecs-user 96.43.136.242 port 36592 [preauth]

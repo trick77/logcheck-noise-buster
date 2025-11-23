@@ -6,3 +6,7 @@ systemd\[[0-9]+\]: docker-[[:alnum:]]+\.scope: Consumed [0-9]+ms CPU time, [0-9.
 systemd\[[0-9]+\]: run-docker-netns-[[:alnum:]]+\.mount: Deactivated successfully\.$
 systemd\[[0-9]+\]: var-lib-docker-rootfs-overlayfs-[[:alnum:]]+\.mount: Deactivated successfully\.$
 systemd\[[0-9]+\]: Started docker-[[:alnum:]]+\.scope - libcontainer container [[:alnum:]]+\.$
+systemd\[[0-9]+\]: Starting apt-daily\.service - Daily apt download activities\.\.\.$
+systemd\[[0-9]+\]: apt-daily\.service: Deactivated successfully\.$
+systemd\[[0-9]+\]: Finished apt-daily\.service - Daily apt download activities\.$
+systemd\[[0-9]+\]: apt-daily\.service: Consumed [0-9.]+s CPU time, [0-9.]+[KMGT] memory peak\.$

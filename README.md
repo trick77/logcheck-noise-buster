@@ -8,6 +8,6 @@ Extra LogCheck filter rules for Debian server installations.
 
 ```console
 git clone https://github.com/trick77/logcheck-noise-buster
-cd logcheck-noise-buster/debian-11-bullseye
+cd logcheck-noise-buster/debian-13-trixie
 ./install.sh
 ```
