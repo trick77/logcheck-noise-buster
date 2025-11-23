@@ -13,3 +13,4 @@ systemd\[[0-9]+\]: apt-daily\.service: Consumed [0-9.]+s CPU time, [0-9.]+[KMGT]
 systemd\[[0-9]+\]: Starting systemd-tmpfiles-clean\.service - Cleanup of Temporary Directories\.\.\.$
 systemd\[[0-9]+\]: systemd-tmpfiles-clean\.service: Deactivated successfully\.$
 systemd\[[0-9]+\]: Finished systemd-tmpfiles-clean\.service - Cleanup of Temporary Directories\.$
+systemd\[[0-9]+\]: tmp-containerd\\x2dmount[0-9]+\.mount: Deactivated successfully\.$

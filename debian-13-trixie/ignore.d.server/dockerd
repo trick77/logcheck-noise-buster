@@ -1,1 +1,2 @@
 dockerd\[[0-9]+\]: time="[0-9T:.-]+Z" level=info msg=.*$
+dockerd\[[0-9]+\]: time="[0-9T:.-]+Z" level=warning msg="ShouldRestart failed, container will not be restarted".* hasBeenManuallyStopped=true.*$
