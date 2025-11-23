@@ -10,3 +10,4 @@ sshd-session\[[0-9]+\]: Disconnected from [^ ]+ port [0-9]+ \[preauth\]$
 sshd-session\[[0-9]+\]: error: kex_exchange_identification: read: Connection reset by peer$
 sshd-session\[[0-9]+\]: Connection reset by [^ ]+ port [0-9]+$
 sshd-session\[[0-9]+\]: Unable to negotiate with [^ ]+ port [0-9]+: no matching key exchange method found\. Their offer: .* \[preauth\]$
+sshd-session\[[0-9]+\]: banner exchange: Connection from [^ ]+ port [0-9]+: invalid format$
