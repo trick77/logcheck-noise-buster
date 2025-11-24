@@ -28,3 +28,6 @@ systemd\[[0-9]+\]: (Started|Starting) [a-z0-9_.-]+\.service - .+$
 systemd\[[0-9]+\]: [a-z0-9_.-]+\.service: Deactivated successfully\.$
 systemd\[[0-9]+\]: Finished [a-z0-9_.-]+\.service - .+$
 systemd\[[0-9]+\]: [a-z0-9_.-]+\.service - .+ was skipped because of an unmet condition check$
+systemd\[[0-9]+\]: Starting user-runtime-dir@[0-9]+\.service - User Runtime Directory /run/user/[0-9]+\.\.\.$
+systemd\[[0-9]+\]: (Starting|Started) user@[0-9]+\.service - User Manager for UID [0-9]+(\.\.\.)?\.$
+systemd\[[0-9]+\]: Started session-[0-9]+\.scope - Session [0-9]+ of User [a-z0-9_-]+\.$

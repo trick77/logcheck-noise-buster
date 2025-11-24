@@ -80,3 +80,7 @@ Nov 24 02:06:48 wopr systemd[1]: Starting man-db.service - Daily man-db regenera
 Nov 24 02:06:51 wopr systemd[1]: man-db.service: Deactivated successfully.
 Nov 24 02:06:51 wopr systemd[1]: Finished man-db.service - Daily man-db regeneration.
 Nov 24 02:39:41 wopr systemd[1]: mdcheck_continue.service - MD array scrubbing - continuation was skipped because of an unmet condition check
+Nov 24 06:39:36 wopr systemd[1]: Starting user-runtime-dir@1001.service - User Runtime Directory /run/user/1001...
+Nov 24 06:39:36 wopr systemd[1]: Starting user@1001.service - User Manager for UID 1001...
+Nov 24 06:39:37 wopr systemd[1]: Started user@1001.service - User Manager for UID 1001.
+Nov 24 06:39:37 wopr systemd[1]: Started session-414.scope - Session 414 of User wopr.
