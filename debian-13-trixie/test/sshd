@@ -1,2 +1,2 @@
-Nov 23 08:50:33 wopr sshd[791]: Timeout before authentication for connection from 223.15.247.239 to 192.0.2.1, pid = 2713
-Nov 23 08:50:35 wopr sshd[791]: Timeout before authentication for connection from 188.32.210.218 to 192.0.2.1, pid = 2714
+Nov 23 08:50:33 wopr sshd[1]: Timeout before authentication for connection from 223.15.247.239 to 192.0.2.1, pid = 1
+Nov 23 08:50:35 wopr sshd[1]: Timeout before authentication for connection from 188.32.210.218 to 192.0.2.1, pid = 1

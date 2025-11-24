@@ -1,2 +1,2 @@
-Nov 23 14:58:38 wopr smartd[961]: Device: /dev/sda [SAT], SMART Usage Attribute: 194 Temperature_Celsius changed from 200 to 193
-Nov 23 14:58:38 wopr smartd[961]: Device: /dev/sdb [SAT], SMART Usage Attribute: 194 Temperature_Celsius changed from 193 to 187
+Nov 23 14:58:38 wopr smartd[1]: Device: /dev/sda [SAT], SMART Usage Attribute: 194 Temperature_Celsius changed from 200 to 193
+Nov 23 14:58:38 wopr smartd[1]: Device: /dev/sdb [SAT], SMART Usage Attribute: 194 Temperature_Celsius changed from 193 to 187

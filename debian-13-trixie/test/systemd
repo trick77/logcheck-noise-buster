@@ -9,26 +9,26 @@ Nov 22 15:16:39 wopr systemd[1]: Starting logcheck.service - logcheck...
 Nov 22 15:16:49 wopr systemd[1]: Finished logcheck.service - logcheck.
 Nov 22 15:16:49 wopr systemd[1]: logcheck.service: Deactivated successfully.
 Nov 23 09:17:47 wopr systemd[1]: docker-21c6256e4aa77f97f2910722721fff1a818bd392b9dead2f224de1621e54f3d8.scope: Consumed 4.506s CPU time, 126.5M memory peak, 10.2M read from disk, 32K written to disk.
-Nov 23 17:22:00 wopr systemd[757876]: Created slice app.slice - User Application Slice.
-Nov 23 17:22:00 wopr systemd[757876]: Listening on dbus.socket - D-Bus User Message Bus Socket.
-Nov 23 17:22:00 wopr systemd[757876]: Listening on dirmngr.socket - GnuPG network certificate management daemon.
-Nov 23 17:22:00 wopr systemd[757876]: Listening on gpg-agent-browser.socket - GnuPG cryptographic agent and passphrase cache (access for web browsers).
-Nov 23 17:22:00 wopr systemd[757876]: Listening on gpg-agent-extra.socket - GnuPG cryptographic agent and passphrase cache (restricted).
-Nov 23 17:22:00 wopr systemd[757876]: Listening on gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation).
-Nov 23 17:22:00 wopr systemd[757876]: Listening on gpg-agent.socket - GnuPG cryptographic agent and passphrase cache.
-Nov 23 17:22:00 wopr systemd[757876]: Listening on keyboxd.socket - GnuPG public key management service.
-Nov 23 17:22:00 wopr systemd[757876]: Listening on ssh-agent.socket - OpenSSH Agent socket.
-Nov 23 17:22:00 wopr systemd[757876]: Queued start job for default target default.target.
-Nov 23 17:22:00 wopr systemd[757876]: Reached target basic.target - Basic System.
-Nov 23 17:22:00 wopr systemd[757876]: Reached target default.target - Main User Target.
-Nov 23 17:22:00 wopr systemd[757876]: Reached target paths.target - Paths.
-Nov 23 17:22:00 wopr systemd[757876]: Reached target sockets.target - Sockets.
-Nov 23 17:22:00 wopr systemd[757876]: Reached target timers.target - Timers.
-Nov 23 17:22:00 wopr systemd[757876]: Starting dbus.socket - D-Bus User Message Bus Socket...
-Nov 23 17:22:00 wopr systemd[757876]: Starting gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation)...
-Nov 23 17:22:00 wopr systemd[757876]: Starting gpg-agent.socket - GnuPG cryptographic agent and passphrase cache...
-Nov 23 17:22:00 wopr systemd[757876]: Starting ssh-agent.socket - OpenSSH Agent socket...
-Nov 23 17:22:00 wopr systemd[757876]: Startup finished in 649ms.
+Nov 23 17:22:00 wopr systemd[1]: Created slice app.slice - User Application Slice.
+Nov 23 17:22:00 wopr systemd[1]: Listening on dbus.socket - D-Bus User Message Bus Socket.
+Nov 23 17:22:00 wopr systemd[1]: Listening on dirmngr.socket - GnuPG network certificate management daemon.
+Nov 23 17:22:00 wopr systemd[1]: Listening on gpg-agent-browser.socket - GnuPG cryptographic agent and passphrase cache (access for web browsers).
+Nov 23 17:22:00 wopr systemd[1]: Listening on gpg-agent-extra.socket - GnuPG cryptographic agent and passphrase cache (restricted).
+Nov 23 17:22:00 wopr systemd[1]: Listening on gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation).
+Nov 23 17:22:00 wopr systemd[1]: Listening on gpg-agent.socket - GnuPG cryptographic agent and passphrase cache.
+Nov 23 17:22:00 wopr systemd[1]: Listening on keyboxd.socket - GnuPG public key management service.
+Nov 23 17:22:00 wopr systemd[1]: Listening on ssh-agent.socket - OpenSSH Agent socket.
+Nov 23 17:22:00 wopr systemd[1]: Queued start job for default target default.target.
+Nov 23 17:22:00 wopr systemd[1]: Reached target basic.target - Basic System.
+Nov 23 17:22:00 wopr systemd[1]: Reached target default.target - Main User Target.
+Nov 23 17:22:00 wopr systemd[1]: Reached target paths.target - Paths.
+Nov 23 17:22:00 wopr systemd[1]: Reached target sockets.target - Sockets.
+Nov 23 17:22:00 wopr systemd[1]: Reached target timers.target - Timers.
+Nov 23 17:22:00 wopr systemd[1]: Starting dbus.socket - D-Bus User Message Bus Socket...
+Nov 23 17:22:00 wopr systemd[1]: Starting gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation)...
+Nov 23 17:22:00 wopr systemd[1]: Starting gpg-agent.socket - GnuPG cryptographic agent and passphrase cache...
+Nov 23 17:22:00 wopr systemd[1]: Starting ssh-agent.socket - OpenSSH Agent socket...
+Nov 23 17:22:00 wopr systemd[1]: Startup finished in 649ms.
 Nov 23 08:45:41 wopr systemd[1]: Starting apt-daily.service - Daily apt download activities...
 Nov 23 08:45:45 wopr systemd[1]: Finished apt-daily.service - Daily apt download activities.
 Nov 23 08:45:45 wopr systemd[1]: apt-daily.service: Consumed 3.141s CPU time, 240M memory peak.

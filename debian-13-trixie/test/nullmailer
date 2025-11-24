@@ -1,11 +1,11 @@
-Nov 22 15:16:39 wopr nullmailer-send[1635]: smtp: Succeeded: 250 2.0.0 Ok: queued as 818A91720402
-Nov 22 15:16:39 wopr nullmailer-send[757]: Delivery complete, 0 message(s) remain.
-Nov 22 15:16:39 wopr nullmailer-send[757]: From: <logcheck@wopr.net> to: <logcheck@wopr.net>
-Nov 22 15:16:39 wopr nullmailer-send[757]: Message-Id: <1763824599.311650.1633.nullmailer@wopr.net>
-Nov 22 15:16:39 wopr nullmailer-send[757]: Rescanning queue.
-Nov 22 15:16:39 wopr nullmailer-send[757]: Rescanning queue.
-Nov 22 15:16:39 wopr nullmailer-send[757]: Sent file.
-Nov 22 15:16:39 wopr nullmailer-send[757]: Starting delivery, 1 message(s) in queue.
-Nov 22 15:16:39 wopr nullmailer-send[757]: Starting delivery: host: mail.wopr.net protocol: smtp file: 1763824599.1634
-Nov 22 15:16:39 wopr nullmailer-send[757]: Trigger pulled.
-Nov 22 15:16:39 wopr nullmailer-send[757]: Trigger pulled.
+Nov 22 15:16:39 wopr nullmailer-send[1]: smtp: Succeeded: 250 2.0.0 Ok: queued as 818A91720402
+Nov 22 15:16:39 wopr nullmailer-send[1]: Delivery complete, 0 message(s) remain.
+Nov 22 15:16:39 wopr nullmailer-send[1]: From: <logcheck@wopr.net> to: <logcheck@wopr.net>
+Nov 22 15:16:39 wopr nullmailer-send[1]: Message-Id: <1763824599.311650.1633.nullmailer@wopr.net>
+Nov 22 15:16:39 wopr nullmailer-send[1]: Rescanning queue.
+Nov 22 15:16:39 wopr nullmailer-send[1]: Rescanning queue.
+Nov 22 15:16:39 wopr nullmailer-send[1]: Sent file.
+Nov 22 15:16:39 wopr nullmailer-send[1]: Starting delivery, 1 message(s) in queue.
+Nov 22 15:16:39 wopr nullmailer-send[1]: Starting delivery: host: mail.wopr.net protocol: smtp file: 1763824599.1634
+Nov 22 15:16:39 wopr nullmailer-send[1]: Trigger pulled.
+Nov 22 15:16:39 wopr nullmailer-send[1]: Trigger pulled.
