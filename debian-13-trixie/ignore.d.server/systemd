@@ -21,3 +21,10 @@ systemd\[[0-9]+\]: Reached target [^:]+\.target - .*\.$
 systemd\[[0-9]+\]: (Starting|Listening on) [^:]+\.socket - .*\.$
 systemd\[[0-9]+\]: Startup finished in [0-9.]+ms\.$
 systemd\[[0-9]+\]: var-lib-docker-overlay2-[0-9a-f]+\\x2dinit-merged\.mount: Deactivated successfully\.$
+systemd\[[0-9]+\]: (Stopping|Activating special unit|Stopped target|Closed|Removed slice|Finished) [a-z0-9@.-]+ - .+$
+systemd\[[0-9]+\]: [a-z0-9@.-]+: (Deactivated successfully\.|Consumed [0-9.]+[a-z]+ CPU time, [0-9.]+[KMGT]? memory peak\.)$
+systemd\[[0-9]+\]: Stopped user@[0-9]+\.service - User Manager for UID [0-9]+\.$
+systemd\[[0-9]+\]: (Started|Starting) [a-z0-9_.-]+\.service - .+$
+systemd\[[0-9]+\]: [a-z0-9_.-]+\.service: Deactivated successfully\.$
+systemd\[[0-9]+\]: Finished [a-z0-9_.-]+\.service - .+$
+systemd\[[0-9]+\]: [a-z0-9_.-]+\.service - .+ was skipped because of an unmet condition check$
