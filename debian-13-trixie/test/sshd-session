@@ -24,3 +24,7 @@ Nov 23 08:51:28 wopr sshd-session[1]: Connection closed by authenticating user w
 Nov 23 08:51:41 wopr sshd-session[1]: Disconnected from 45.78.217.27 port 58890 [preauth]
 Nov 23 08:53:15 wopr sshd-session[1]: Connection closed by invalid user ecs-user 96.43.136.242 port 36592 [preauth]
 Nov 23 08:53:15 wopr sshd-session[1]: Invalid user ecs-user from 96.43.136.242 port 36592
+Nov 23 19:09:41 wopr sshd-session[1]: Invalid user a.g.baydin from 134.199.164.25 port 40076
+Nov 23 19:09:41 wopr sshd-session[1]: Connection closed by invalid user a.g.baydin 134.199.164.25 port 40076 [preauth]
+Nov 23 19:22:38 wopr sshd-session[1]: Invalid user arsenii.radoslavov from 134.199.164.25 port 43792
+Nov 23 19:22:38 wopr sshd-session[1]: Connection closed by invalid user arsenii.radoslavov 134.199.164.25 port 43792 [preauth]

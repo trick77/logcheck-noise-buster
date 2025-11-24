@@ -11,3 +11,5 @@ sshd-session\[[0-9]+\]: error: kex_exchange_identification: read: Connection res
 sshd-session\[[0-9]+\]: Connection reset by [^ ]+ port [0-9]+$
 sshd-session\[[0-9]+\]: Unable to negotiate with [^ ]+ port [0-9]+: no matching key exchange method found\. Their offer: .* \[preauth\]$
 sshd-session\[[0-9]+\]: banner exchange: Connection from [^ ]+ port [0-9]+: invalid format$
+sshd-session\[[0-9]+\]: Invalid user [a-z0-9._-]+ from [0-9a-f.:]{7,45} port [0-9]+$
+sshd-session\[[0-9]+\]: Connection closed by invalid user [a-z0-9._-]+ [0-9a-f.:]{7,45} port [0-9]+ \[preauth\]$
