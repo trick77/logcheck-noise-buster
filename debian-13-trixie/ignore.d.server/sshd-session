@@ -8,7 +8,7 @@ sshd-session\[[0-9]+\]: Disconnected from invalid user .* port.*$
 sshd-session\[[0-9]+\]: Disconnected from authenticating user .* port.*$
 sshd-session\[[0-9]+\]: Disconnected from .* port.*$
 sshd-session\[[0-9]+\]: error: kex_exchange_identification: read: Connection reset by peer$
-sshd-session\[[0-9]+\]: Unable to negotiate with .* port .*: no matching key exchange method found\. Their offer:.*$
-sshd-session\[[0-9]+\]: banner exchange: Connection from .* port .*: invalid format$
-sshd-session\[[0-9]+\]: Unable to negotiate with .* port .*: no matching host key type found\. Their offer:.*$
-sshd-session\[[0-9]+\]: Read error from remote host .* port .*: Connection timed out$
+sshd-session\[[0-9]+\]: Unable to negotiate with .* port.*: no matching host key type found\. Their offer:.*$
+sshd-session\[[0-9]+\]: Unable to negotiate with .* port.*: no matching key exchange method found\. Their offer:.*$
+sshd-session\[[0-9]+\]: banner exchange: Connection from .* port.*: invalid format$
+sshd-session\[[0-9]+\]: Read error from remote host .* port.*: Connection timed out$
