@@ -33,3 +33,4 @@ Nov 28 19:01:47 wopr sshd-session[1]: Invalid user  from 167.172.208.8 port 5468
 Nov 28 19:01:55 wopr sshd-session[1]: Connection closed by invalid user  167.172.208.8 port 54684 [preauth]
 Nov 28 21:10:49 wopr sshd-session[1]: Invalid user  from 134.199.200.220 port 59770
 Nov 28 21:10:56 wopr sshd-session[1]: Connection closed by invalid user  134.199.200.220 port 59770 [preauth]
+Nov 29 04:00:06 wopr sshd-session[1]: Read error from remote host 82.136.85.167 port 50632: Connection timed out
