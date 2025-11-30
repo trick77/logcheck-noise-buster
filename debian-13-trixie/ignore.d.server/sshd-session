@@ -12,3 +12,5 @@ sshd-session\[[0-9]+\]: Unable to negotiate with .* port.*: no matching host key
 sshd-session\[[0-9]+\]: Unable to negotiate with .* port.*: no matching key exchange method found\. Their offer:.*$
 sshd-session\[[0-9]+\]: banner exchange: Connection from .* port.*: invalid format$
 sshd-session\[[0-9]+\]: Read error from remote host .* port.*: Connection timed out$
+sshd-session\[[0-9]+\]: error: maximum authentication attempts exceeded for .* from .* port.*$
+sshd-session\[[0-9]+\]: Disconnecting authenticating user .* port.*: Too many authentication failures.*$
