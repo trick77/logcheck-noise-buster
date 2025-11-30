@@ -1,2 +1,2 @@
 sshd\[[0-9]+\]: Timeout before authentication for connection from.*$
-sshd\[[0-9]+\]: drop connection .* from .* on .* penalty: failed authentication$
+sshd\[[0-9]+\]: drop connection .* from .* on .* penalty:.*$
