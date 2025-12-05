@@ -1,0 +1,1 @@
+systemd-logind\[[0-9]+\]: Session .* logged out. Waiting for processes to exit\.$

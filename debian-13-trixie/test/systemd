@@ -84,3 +84,4 @@ Nov 24 06:39:36 wopr systemd[1]: Starting user-runtime-dir@1001.service - User R
 Nov 24 06:39:36 wopr systemd[1]: Starting user@1001.service - User Manager for UID 1001...
 Nov 24 06:39:37 wopr systemd[1]: Started user@1001.service - User Manager for UID 1001.
 Nov 24 06:39:37 wopr systemd[1]: Started session-414.scope - Session 414 of User wopr.
+Dec 05 01:27:21 wopr systemd[1]: user-0.slice: Consumed 2min 28.941s CPU time, 108.6M memory peak.
