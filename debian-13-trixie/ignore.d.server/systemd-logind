@@ -1,1 +1,2 @@
 systemd-logind\[[0-9]+\]: Session .* logged out. Waiting for processes to exit\.$
+systemd-logind\[[0-9]+\]: Removed session .*$

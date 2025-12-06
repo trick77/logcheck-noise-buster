@@ -14,3 +14,4 @@ sshd-session\[[0-9]+\]: banner exchange: Connection from .* port.*: invalid form
 sshd-session\[[0-9]+\]: Read error from remote host .* port.*: Connection timed out$
 sshd-session\[[0-9]+\]: error: maximum authentication attempts exceeded for .* from .* port.*$
 sshd-session\[[0-9]+\]: Disconnecting authenticating user .* port.*: Too many authentication failures.*$
+sshd-session\[[0-9]+\]: Timeout, client not responding from user .* port .*$
