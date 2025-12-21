@@ -1,0 +1,6 @@
+Dec 20 13:16:48 wopr dhclient[1]: PRC: Renewing lease on eth0.
+Dec 20 13:16:48 wopr dhclient[1]: XMT: Renew on eth0, interval 9820ms.
+Dec 20 13:16:48 wopr dhclient[1]: RCV: Reply message on eth0 from fe80::20d:b9ff:fe61:af81.
+Dec 20 13:46:54 wopr dhclient[1]: PRC: Renewing lease on eth0.
+Dec 20 13:46:54 wopr dhclient[1]: XMT: Renew on eth0, interval 9940ms.
+Dec 20 13:46:55 wopr dhclient[1]: RCV: Reply message on eth0 from fe80::20d:b9ff:fe61:af81.

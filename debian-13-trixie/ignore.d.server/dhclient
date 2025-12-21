@@ -1,0 +1,3 @@
+dhclient\[[0-9]+\]: PRC: Renewing lease on .*\.$
+dhclient\[[0-9]+\]: XMT: Renew on .*, interval [0-9]+ms\.$
+dhclient\[[0-9]+\]: RCV: Reply message on .* from .*\.$
