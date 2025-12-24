@@ -8,6 +8,7 @@ on:
 permissions:
   contents: write
   pull-requests: write
+  statuses: write
 
 jobs:
   lint:
@@ -24,7 +25,7 @@ jobs:
         uses: github/super-linter/slim@v7
         env:
           DEFAULT_BRANCH: origin/master
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.PAT_TOKEN }}
           FIX_YAML_PRETTIER: true
           FIX_SHELL_SHFMT: true
           VALIDATE_JSCPD: false
