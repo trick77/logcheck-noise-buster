@@ -7,15 +7,22 @@ jobs:
     name: Lint Code Base
     runs-on: ubuntu-latest
 
+    permissions:
+      contents: write
+      packages: read
+
     steps:
     - name: Checkout Code
       uses: actions/checkout@v6
       with:
         fetch-depth: 0
+        persist-credentials: false
 
     - name: Lint Code Base
-      uses: github/super-linter/slim@v5
+      uses: github/super-linter/slim@v7
       env:
-        DEFAULT_BRANCH: master
+        DEFAULT_BRANCH: origin/master
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        VALIDATE_YAML: false
+        VALIDATE_JSCPD: false
+        FIX_YAML_PRETTIER: true
+        FIX_SHELL_SHFMT: true

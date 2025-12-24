@@ -7,11 +7,16 @@ on: [push, pull_request]
 jobs:
   test:
     runs-on: ubuntu-latest
+
+    permissions:
+      contents: read
+      packages: read
+
     steps:
     - uses: actions/checkout@v6
     - run: sudo apt-get update
     - run: sudo apt install -y logcheck
-    - working-directory: ./debian-12-bookworm
+    - working-directory: ./debian-13-trixie
       run: ./test.sh
-    - working-directory: ./debian-12-bookworm
+    - working-directory: ./debian-13-trixie
       run: sudo ./install.sh
