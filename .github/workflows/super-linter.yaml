@@ -30,11 +30,11 @@ jobs:
           FIX_SHELL_SHFMT: true
           FILTER_REGEX_EXCLUDE: '.*\.github/.*'
           VALIDATE_JSCPD: false
-#
-#      - name: Clean up super-linter output files
-#        run: |
-#          sudo rm -rf github_conf super-linter-output
-#        continue-on-error: true
+
+      - name: Clean up super-linter output files
+        run: |
+          sudo rm -rf github_conf super-linter-output
+        continue-on-error: true
 
       - name: Create PR with fixes
         uses: peter-evans/create-pull-request@v8
