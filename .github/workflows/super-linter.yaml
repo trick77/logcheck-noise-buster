@@ -30,8 +30,6 @@ jobs:
           FILTER_REGEX_EXCLUDE: '.*\.github/workflows/.*'
           VALIDATE_JSCPD: false
           CREATE_LOG_FILE: false
-          SAVE_SUPER_LINTER_SUMMARY: false
-          SAVE_SUPER_LINTER_OUTPUT: false
 
       - name: Clean up super-linter output files
         run: |
