@@ -24,7 +24,7 @@ jobs:
         uses: github/super-linter/slim@v7
         env:
           DEFAULT_BRANCH: origin/master
-          GITHUB_TOKEN: ${{ secrets.PAT_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           FIX_YAML_PRETTIER: true
           FIX_SHELL_SHFMT: true
           VALIDATE_JSCPD: false
