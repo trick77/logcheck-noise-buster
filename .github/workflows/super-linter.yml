@@ -18,6 +18,7 @@ jobs:
         uses: actions/checkout@v6
         with:
           fetch-depth: 0
+          persist-credentials: false
 
       - name: Run Super-Linter (with fixes)
         uses: github/super-linter/slim@v7
@@ -31,6 +32,7 @@ jobs:
       - name: Create PR with fixes
         uses: peter-evans/create-pull-request@v6
         with:
+          token: ${{ secrets.GITHUB_TOKEN }}
           commit-message: "chore: auto-fix lint issues"
           title: "Auto-fix lint issues"
           body: |
