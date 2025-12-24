@@ -7,9 +7,7 @@ jobs:
     name: Lint Code Base
     runs-on: ubuntu-latest
 
-    permissions:
-      contents: write
-      packages: read
+    permissions: read-all
 
     steps:
     - name: Checkout Code
