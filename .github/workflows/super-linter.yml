@@ -32,6 +32,11 @@ jobs:
           SAVE_SUPER_LINTER_SUMMARY: false
           SAVE_SUPER_LINTER_OUTPUT: false
 
+      - name: Clean up super-linter output files
+        run: |
+          sudo rm -rf github_conf super-linter-output
+        continue-on-error: true
+
       - name: Create PR with fixes
         uses: peter-evans/create-pull-request@v6
         with:
