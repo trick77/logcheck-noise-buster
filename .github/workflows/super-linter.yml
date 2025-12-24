@@ -8,6 +8,10 @@ on:
 permissions:
   contents: write
   pull-requests: write
+  # To report GitHub Actions status checks
+  statuses: write
+  # To allow fixing workflow files
+  workflows: write
 
 jobs:
   lint:
