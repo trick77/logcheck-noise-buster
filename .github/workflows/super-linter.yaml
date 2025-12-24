@@ -27,7 +27,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           FIX_YAML_PRETTIER: true
           FIX_SHELL_SHFMT: true
-          FILTER_REGEX_EXCLUDE: '.*\.github/workflows/.*'
+          FILTER_REGEX_EXCLUDE: '.*\.github/.*'
           VALIDATE_JSCPD: false
           CREATE_LOG_FILE: false
 
