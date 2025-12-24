@@ -29,7 +29,6 @@ jobs:
           FIX_SHELL_SHFMT: true
           FILTER_REGEX_EXCLUDE: '.*\.github/.*'
           VALIDATE_JSCPD: false
-          CREATE_LOG_FILE: false
 
       - name: Clean up super-linter output files
         run: |
