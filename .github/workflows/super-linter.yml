@@ -28,6 +28,9 @@ jobs:
           FIX_YAML_PRETTIER: true
           FIX_SHELL_SHFMT: true
           VALIDATE_JSCPD: false
+          CREATE_LOG_FILE: false
+          SAVE_SUPER_LINTER_SUMMARY: false
+          SAVE_SUPER_LINTER_OUTPUT: false
 
       - name: Create PR with fixes
         uses: peter-evans/create-pull-request@v6
