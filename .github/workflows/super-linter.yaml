@@ -13,10 +13,13 @@ permissions:
 jobs:
   lint:
     runs-on: ubuntu-latest
+    # Dependabot PRs can't access PAT_TOKEN and can't push fixes back,
+    # so skip the lint & auto-fix job for them (it would always fail).
+    if: github.actor != 'dependabot[bot]'
 
     steps:
       - name: Checkout code
-        uses: actions/checkout@v6
+        uses: actions/checkout@v7
         with:
           fetch-depth: 0
           token: ${{ secrets.PAT_TOKEN }}
