@@ -1,4 +1,3 @@
 .idea/
 
-# Local git worktrees
-.agents/worktrees/
+.agents/
